@@ -86,7 +86,7 @@ const AddAppointment = ({edit,showAdd ,onSave }) => {
             </div>
            
 
-            <input type="submit" className="btn btn-block" value="Save Appointment" />
+            <input type="submit" className="btn btn-block" value={edit ? "Edit Appointment":"Add Appointment"} />
         </form>
     )
 }
